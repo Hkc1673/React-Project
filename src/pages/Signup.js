@@ -2,11 +2,12 @@ import React from 'react'
 import {TextField,Button,Grid, Container} from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 import { useFormik } from 'formik';
+import firebase from "../firebase/firebase.utils"
 
 
 const useStyles = makeStyles({
     root: {
-      marginTop:"5rem",
+      marginTop:"10rem",
     },
   });
 
