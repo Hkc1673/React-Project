@@ -1,19 +1,11 @@
-import './App.css';
-import React from 'react';
-import Signup from "./pages/Signup"
-import Navbar from "./components/Navbar"
+import AppRouter from "./router/Router";
 
 function App() {
- 
   return (
-  
-    <>
-    <Navbar/>
-     <Signup/>
-    </>
-    
+    <div className="App">
+      <AppRouter />
+    </div>
   );
-
 }
 
 export default App;
