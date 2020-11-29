@@ -72,6 +72,7 @@ export default function Navbar() {
                 aria-haspopup="true"
                 onClick={handleMenu}
                 color="inherit"
+               
               >
                 {currentUser?.displayName}
                 <AccountCircle />
